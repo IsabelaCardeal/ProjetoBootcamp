@@ -1,0 +1,25 @@
+using System;
+using PycharmProjects.Jogo.Classes;
+
+namespace PycharmProjects.Jogo
+{
+
+     class Program
+     {
+
+         static void Main(string[] args)
+         {
+             Knight arus = new Knight("Zack", 20, "Cavaleiro");
+             Wizard wizard = new Wizard("Madrinha", 27, "Fada");
+             Archer archer = new Archer("Katniss", 30,"Arqueira");
+             Witch witch = new Witch("Morgana", 40, "Bruxa");
+
+
+
+             Console.WriteLine(arus.Attack());
+             Console.WriteLine(wizard.Attack());
+
+         }
+     }
+}
+

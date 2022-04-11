@@ -1,0 +1,26 @@
+namespace PycharmProjects.Jogo.Classes
+{
+
+    public class Knight : Hero
+    {
+        public Knight(string Name, int Level, string HeroType)
+        {
+             this.Name = Name;
+             this.Level = Level;
+             this.HeroType = HeroType
+        }
+
+        public override string Attack(){
+              return this.Name + "Atacou com a sua espada";
+        }
+
+        public string Attack(int Bonus){
+
+            if (Bonus > 6){
+              return this.Name + "Atacou com a Excalibur com bonus de dano de " + Bonus;
+           }else{
+              return this.Name + "Atacou com a sua espada de madeira com bonus de " + Bonus;
+           }
+        }
+    }
+}
