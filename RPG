@@ -18,6 +18,9 @@ namespace PycharmProjects.Jogo
 
              Console.WriteLine(arus.Attack());
              Console.WriteLine(wizard.Attack());
+             Console.WriteLine(archer.Attack());
+             Console.WriteLine(witch.Attack());
+
 
          }
      }
